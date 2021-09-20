@@ -35,7 +35,7 @@ footer a {
     display: inline-block;
     text-decoration: none;
     color: #DCDCDC;
-    padding: 0 20px;
+    margin: 0 20px;
 }
 main img {
     display: inline-block;
@@ -49,6 +49,10 @@ main a {
 
 .pagination-number {
     color: white;
+}
+
+.margin-left {
+    margin-left: 20px
 }
 /***********************************/
 header {
@@ -146,16 +150,45 @@ main {
 .footer-icons-left i {
     font-size: 25px;
 }
+.arrow.icon-small i {
+    font-size: 15px;
+}
 
 .footer-icons-left [class^="icon-"] {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.footer-icons-left {
+    position: relative;
+}
 
+.footer-icons-center {
+    position: relative;
+}
 
-.footer-icons-center i {
-    font-size: 25px;
+.arrow {
+    position: absolute;
+}
+
+.arrow-small {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.fas.fa-chevron-up.arrow{
+    font-size: 15px;
+    right: -20px;
+    bottom: 20px;
+}
+
+.fas.fa-chevron-up.arrow-small{
+    font-size: 10px;
+    right: 5px;
+    bottom: 15px;
 }
 
 .footer-icons-center [class^="icon-"] {
@@ -163,6 +196,17 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
+.footer-icons-center i {
+    font-size: 25px;
+}
+
+.partecipants-number {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+
 
 .footer-icons-right {
     min-height: 60px;
