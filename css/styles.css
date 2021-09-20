@@ -3,3 +3,177 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.inline-block {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.icon-font {
+    font-size: 30px;
+}
+
+header button {
+    background-color: #3B3B3B;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: black;
+}
+
+footer a {
+    display: inline-block;
+    text-decoration: none;
+    color: #DCDCDC;
+    padding: 0 20px;
+}
+main img {
+    display: inline-block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+main a {
+    text-decoration: none;
+}
+
+.pagination-number {
+    color: white;
+}
+/***********************************/
+header {
+    height: 46px;
+}
+
+main {
+    height: calc(100vh - 106px);
+}
+
+.black-bar {
+    padding: 13px 14px;
+}
+
+.main-container {
+    height: calc(100%);
+    position: relative;
+}
+
+.participants-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: center;
+    overflow: hidden;
+}
+  
+.participant {
+    border: 4px solid black;
+    min-width: 120px;
+    max-width: 300px;
+    min-height: 80px;
+    max-height: 200px;
+    max-width: calc(100% / 5 - 40px);
+    max-height: calc(100% / 4 - 10px);
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #232427;
+    transition: border-color 0.3s;
+    position: relative;
+}
+
+.participant-name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    min-width: 10%;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 5px 5px;
+    color: white;
+}
+
+.fas.fa-microphone-alt::after {
+    position: absolute;
+    content: "/";
+    color: red;
+    font-size: 30px;
+    left: 7px;
+    bottom: 0px;
+}
+
+.participant:hover {
+    border-color: rgb(0, 255, 64);
+}
+
+.pagination-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    padding: 30px 14px;
+}
+
+.pagination-btn-left {
+    left: 5px;
+}
+
+.pagination-btn-right {
+    right: 5px;
+}
+
+.pagination-btn i {
+    font-size: 40px;
+}
+
+.footer-icons {
+    min-height: 60px;
+    background-color: #232628;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons-left i {
+    font-size: 25px;
+}
+
+.footer-icons-left [class^="icon-"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer-icons-center i {
+    font-size: 25px;
+}
+
+.footer-icons-center [class^="icon-"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icons-right {
+    min-height: 60px;
+    background-color: #545455;
+}
+
+.end-meeting {
+    min-height: 60px;
+    color: #FF554B;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
