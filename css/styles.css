@@ -35,11 +35,11 @@ footer a {
     display: inline-block;
     text-decoration: none;
     color: #DCDCDC;
-    padding: 0 20px;
+    padding: 5px 20px;
 }
 
 footer a:hover{
-    background-color: chocolate;
+    background-color: rgb(122, 122, 122);
     border-radius: 5px;
 }
 
@@ -156,7 +156,7 @@ main {
 }
 
 .footer-icons-left i {
-    font-size: 25px;
+    font-size: 20px;
 }
 .arrow.icon-small i {
     font-size: 15px;
@@ -208,7 +208,7 @@ main {
 }
 
 .footer-icons-center i {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .partecipants-number {
@@ -226,11 +226,11 @@ main {
 }
 
 .end-meeting {
-    min-height: 60px;
+    
     color: #FF554B;
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 5px;
 }
